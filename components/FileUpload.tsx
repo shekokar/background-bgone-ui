@@ -1,5 +1,4 @@
 import React, { ChangeEvent, useState } from "react";
-import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 // import app from "../firebase/clientApp";
 import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 import {v4 as uuid} from 'uuid';
